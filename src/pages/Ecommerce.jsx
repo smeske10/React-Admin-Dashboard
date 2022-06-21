@@ -21,12 +21,12 @@ const Ecommerce = () => {
             </div>
           </div>
           {/* <button
-              type="button"
-              style={{ backgroundColor: currentColor }}
-              className="text-2xl opacity-0.9 text-white hover:drop-shadow-xl rounded-full  p-4"
-            >
-              <BsCurrencyDollar />
-            </button> */}
+            type="button"
+            style={{ backgroundColor: "blue" }}
+            className="text-2xl opacity-0.9 text-white hover:drop-shadow-xl rounded-full  p-4"
+          >
+            <BsCurrencyDollar />
+          </button> */}
           <div className="mt-6">
             <Button
               color="white"
@@ -108,6 +108,17 @@ const Ecommerce = () => {
                   color="blue"
                 />
               </div>
+              <div className="mt-10">
+                <Button
+                  color="white"
+                  bgColor="blue"
+                  text="Download Report"
+                  borderRadius="10px"
+                />
+              </div>
+            </div>
+            <div>
+              <Stacked width="320px" height="360px" />
             </div>
           </div>
         </div>

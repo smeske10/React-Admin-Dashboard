@@ -20,18 +20,20 @@ export const ContextProvider = ({ children }) => {
   const setMode = (e) => {
     setCurrentMode(e.target.value);
     localStorage.setItem("themeMode", e.target.value);
+
+    setThemeSettings(false);
   };
 
   const setColor = (color) => {
     setCurrentColor(color);
     localStorage.setItem("colorMode", color);
+    setThemeSettings(false);
   };
 
   const handleClick = (clicked) =>
     setIsClicked({ ...initialState, [clicked]: true });
 
   return (
-    // eslint-disable-next-line react/jsx-no-constructed-context-values
     <StateContext.Provider
       value={{
         currentColor,

@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# React Admin Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This React Administrative Dashboard uses Syncfusion and SparkLine Components to allow users to:
 
-In the project directory, you can run:
+- Use the Dashboard, 3 Pages with Tables, 4 Apps, and 8 Charts
+- The Dashboard will display a revenue report available for download to PDF or Excel
+- The Orders Page will display Orders and can be sorted by column
+- The Employees Page will display Employee Information with Search by Keyword functionality
+- The Customers Page will display Customer Information and can be Edited or Deleted
+- The Calendar App can create, edit, and delete events
+- The Kanban App can create, edit, and delete tasks which are organized by buckets - these tasks are drag & Drop for convenience
+- The Editor App can be used to edit text and styling
+- The Color Picker App can use Palette or Picker to select a color and get the hash
+- The Charts are dynamic with tooltips and display data from the database
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [License](#license)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Credits](#credits)
+- [Tests](#tests)
+- [Questions](#questions)
+- [Contribute](#Contribute)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## License
 
-### `npm test`
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Unlicensed
 
-### `npm run build`
+Refer to [https://choosealicense.com/](https://choosealicense.com/).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To install this application, please follow the steps below:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Open the codebase in VS Code
+- In the root directory's integrated terminal execute 'npm i'
+- In the same integrated terminal, execute 'npm start'
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Dashboard Screenshot](/public/Dashboard.png)
+![Orders Screenshot](/public/Orders.png)
+![Employees Screenshot](/public/Employees.png)
+![Customers Screenshot](/public/Customers.png)
+![Calendar Screenshot](/public/Calendar.png)
+![Kanban Screenshot](/public/Kanban.png)
+![Editor Screenshot](/public/Editor.png)
+![ColorPicker Screenshot](/public/ColorPicker.png)
+![Chart Screenshot](/public/Chart.png)
+![Chart Screenshot](/public/Theme%20Settings%20Dark%20Mode.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Credits
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- This application was initially created by Javascript Mastery for a Course on SyncFusion
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Questions
 
-## Learn More
+If you have any questions about the repo, open an issue or contact me directly at undefined. You can find more of my work at [smeske10](https://github.com/smeske10/).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contribute
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
